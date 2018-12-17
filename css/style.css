@@ -1,0 +1,74 @@
+body {
+    background-color: #EEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.selected {
+    text-decoration: none;
+    color: red; 
+}
+
+.resume {
+    text-decoration: none;
+    color: black;
+
+}
+
+.kontak {
+    text-decoration: none;
+    color: black;
+}
+
+h1, h2, h3 {
+    margin: 0; 
+}
+
+#container {
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color: #66CCFF;
+    color: white; 
+    text-align: center;
+    padding: 10px; 
+}
+
+#content {
+    padding: 10px;
+}
+
+.menubar {
+    padding: 0px 10px;
+}
+
+#nav {
+    float: left;
+}
+
+#nav ul li { 
+    list-style-type: none;
+    display: block;
+    zoom: 1; 
+
+}
+
+#nav ul li a:hover {
+    color: red;
+}
+
+#main {
+    width: 600px; 
+    float: right; 
+}
+
+#footer {
+    clear: both; 
+    padding: 15px;
+    background-color: #999999;
+    color: white;
+    text-align: right; 
+}
